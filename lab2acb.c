@@ -14,8 +14,9 @@ int main(){
 		a=function(a);
 		x++;
 	}
-	printf("%d", i);
+	printf("%d", x);
 	return 0;	
 }
+
 
 
