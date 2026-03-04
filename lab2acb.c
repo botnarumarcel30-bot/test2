@@ -8,13 +8,14 @@ int function(int x){
 }
 
 int main(){
-	int a=30, i=0;
+	int a=30, x=0;
 	
 	while (a>0){
 		a=function(a);
-		i++;
+		x++;
 	}
 	printf("%d", i);
 	return 0;	
 }
+
 
